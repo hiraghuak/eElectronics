@@ -1,0 +1,314 @@
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+    height: 100%;
+}
+
+p {
+    margin: 0px;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+
+/*top section start*/
+
+#topheader {
+    background-color: #f4f4f4;
+    padding: 10px 0px;
+    box-shadow: 8px 8px 8px #ddd;
+}
+
+#topheader .top a {
+    font-size: 12px;
+    color: #8c8c8c;
+    cursor: pointer;
+    padding-left: 8px;
+}
+
+#topheader .top a:hover {
+    color: #505050;
+}
+
+#topheader .top img {
+    margin-top: -4px;
+    margin-right: 7px;
+    width: 16px;
+    height: 18px;
+}
+
+#topheader .rights a {
+    font-size: 12px;
+    color: #8c8c8c;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+#topheader .rights a:hover {
+    color: #505050;
+}
+
+
+/*end*/
+
+
+/*header Section start*/
+
+#Header {
+    background-color: #fff;
+    padding: 35px 0px;
+}
+
+#Header .carBox {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#Header .carBox a {
+    color: #cbcbcb;
+}
+
+#Header .carBox a span {
+    color: #1bba9a;
+}
+
+
+/*end*/
+
+
+/*Menu section start*/
+
+#Menu {
+    background-color: #1bba9a;
+    margin-bottom: -1px;
+}
+
+#Menu .MainNav .nav>li>a {
+    color: #fff;
+}
+
+#Menu .MainNav .nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+#Menu .MainNav .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+#Menu .MainNav .navbar-collapse {
+    padding-left: 0px;
+}
+
+#Menu .MainNav .container-fluid {
+    padding-left: 0px;
+}
+
+
+/*eduction section start*/
+
+#eduction {
+    background-color: #1bba9a;
+    padding: 25px 0px;
+    position: relative;
+    z-index: 5;
+}
+
+#eduction::after {
+    position: absolute;
+    content: "";
+    bottom: 190px;
+    background-color: #1bba9a;
+    transform-origin: bottom left;
+    transform: skewY(-6deg);
+    -webkit-transform: skewY(3deg);
+    width: 100%;
+    height: 70%;
+    top: -56%;
+    outline: 3px solid transparent;
+    z-index: -1 !important;
+}
+
+#eduction::before {
+    position: absolute;
+    content: "";
+    bottom: 190px;
+    background-color: #1bba9a;
+    transform-origin: bottom left;
+    transform: skewY(-6deg);
+    -webkit-transform: skewY(3deg);
+    width: 100%;
+    height: 70%;
+    top: 30%;
+    outline: 3px solid transparent;
+    z-index: -1 !important;
+}
+
+
+/*eduction section end*/
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.educBox {
+    border: 1px solid #088269;
+    padding: 20px;
+    z-index: 1410;
+    transition-duration: 2sec;
+    box-shadow: 0px 3px 10px #0e7560;
+}
+
+.educBox:hover {
+    box-shadow: 4px 6px 17px #0e7560;
+}
+
+.educBox img {
+    display: block;
+    margin: 0 auto;
+}
+
+.educBox p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+
+/*end*/
+
+
+/*Latest Products section start*/
+
+#latesPro {
+    margin: 25px 0;
+    padding: 20px 0px;
+}
+
+#latesPro .LatestHeading h2 {
+    text-align: center;
+    color: #b9b8b8;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#latesPro .LasteBox {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+#latesPro .LasteBox:hover {
+    box-shadow: 4px 6px 17px #e4e4e4;
+}
+
+#latesPro .LasteBox img {
+    display: block;
+    margin: 0 auto;
+}
+
+.SubTitle .TitleType {
+    color: #0f0f0f;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.SubTitle .tilePrice {
+    color: #1bbc9b
+}
+
+@media (min-width: 1200px) {
+    #latesPro .col-lg-3 {
+        width: 20%;
+    }
+}
+
+
+/*end*/
+
+
+/*Brands section start*/
+
+#brandSec {
+    padding: 20px 0px;
+    margin: 10px 0;
+    background-color: #1bba9a;
+    z-index: 5;
+    position: relative;
+    margin-top: 80px;
+}
+
+#brandSec:before {
+    position: absolute;
+    content: "";
+    bottom: 190px;
+    background-color: #1bba9a;
+    transform-origin: bottom left;
+    transform: skewY(-6deg);
+    -webkit-transform: skewY(3deg);
+    width: 100%;
+    height: 200px;
+    top: 25%;
+    outline: 3px solid transparent;
+    z-index: 0 !important;
+}
+
+#brandSec::after {
+    position: absolute;
+    content: "";
+    bottom: 190px;
+    background-color: #1bba9a;
+    transform-origin: bottom left;
+    transform: skewY(-6deg);
+    -webkit-transform: skewY(3deg);
+    width: 100%;
+    height: 70%;
+    top: -25%;
+    outline: 3px solid transparent;
+    z-index: -1 !important;
+}
+
+#brandSec .BandHeading h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bandlogos {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.bandlogos img {
+    display: block;
+    margin: 0 auto;
+}
